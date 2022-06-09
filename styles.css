@@ -32,6 +32,7 @@ body {
     width: auto;
     overflow-x: hidden;
     font-family: 'Old Standard TT', serif;
+    padding: 0.521vw;
 }
 
 header {
@@ -39,6 +40,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 1.042vw;
 }
 header figure{
     display: flex;
@@ -62,12 +64,77 @@ header h2 {
 }
 
 h1 {
-    font-size: clamp(2rem,4vw + 1rem, 5.5rem);
+    font-size: 7.813vw;
     font-family: 'Ewert', cursive;
 }
+.intro figure{
+    width: 13.021vw;
+}
+.intro figure img{
+    width: 100%;
+    border-radius: 0.521vw;
+}
+.intro figure figcaption{
+    width: 100%;
+    text-align: center;
+}
+.intro{
+    height: 20.833vw;
+    width: 36.458vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-right: solid #00000093;
+}
+.Epico{
+    width: 20.833vw;
+}
+.Epico h2,.critica h2{
+    font-size: 2.083vw;
+    text-decoration: underline;
+}
+.Epico p{
+    font-size: 0.938vw;
+}
+.wrapper1{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid;
+    justify-content: space-between;
+}
+.sec2{
+    height: 800px;
+    padding: 1.042vw;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    border: solid;
+}
+
+.sec2 h2{
+    text-decoration: underline;
+    font-size: 6vw;
+}
+.critica{
+}
 @media screen and (orientation:portrait){
-    
     h1 {
-        font-size: clamp(2rem, 4vw + 1rem, 5.5rem);
+        font-size: 10vw
+    }
+    .intro{
+        width: 100%;
+        height: 80vw;
+        border: none;
+        align-items: flex-start;
+    }
+    .intro figure{
+        width: 20vw;
+    }
+    .intro figure figcaption{
+        width: 100%;
+    }
+    .Epico{
+        width: 70vw;
     }
 }
