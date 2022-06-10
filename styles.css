@@ -154,7 +154,7 @@ h1 {
 .sec2 article p {
     font-size: 1vw;
     margin: 0.938vw;
-    padding: 0.521vw;
+    padding-left: 0.521vw;
     z-index: 5;
 }
 
@@ -175,7 +175,7 @@ h1 {
     width: 78.125vw;
     margin-top: 2.083vw;
 }
-.ot{
+.ultp{
     margin-top: 1.563vw;
     width: 98%;
 }
