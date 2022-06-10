@@ -126,7 +126,9 @@ h1 {
     display: flex;
     align-items: flex-end;
     flex-direction: column;
-    position: relative;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .sec2 h2 {
@@ -299,7 +301,7 @@ footer{
 
     .sec2 {
         width: 100%;
-        position: relative;
+        position: initial;
     }
 
     .sec2 h2 {
