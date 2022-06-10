@@ -134,7 +134,7 @@ h1 {
 }
 .mapa{
     width: 20vw;
-    float: left;
+    float: right;
     shape-outside: url("assets/Flag_map_of_Rio_Grande_Do_Sul.png");
     shape-image-threshold: 0.1;
     opacity: 80%;
@@ -181,6 +181,10 @@ h1 {
         width: 100%;
     }
     .sec2{
+        width: 100%;
         position: relative;
+    }
+    .sec2 h2{
+        width: 100%;
     }
 }
