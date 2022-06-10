@@ -12,6 +12,7 @@
     width: 0vw;
     height: 0vw;
 }
+
 body {
     width: auto;
     overflow-x: hidden;
@@ -31,7 +32,8 @@ header {
     justify-content: space-around;
     margin-bottom: 1.042vw;
 }
-header figure{
+
+header figure {
     display: flex;
     width: 95%;
     flex-direction: row;
@@ -40,11 +42,13 @@ header figure{
     border-bottom: 6px double rgba(28, 6, 6, 0.77);
     border-radius: 0px 0px 18px 18px;
 }
-header img{
+
+header img {
     width: 11.719vw;
     height: 11.719vw;
     filter: saturate(0.5);
 }
+
 header h2 {
     text-align: center;
     border-bottom: 6px double rgba(28, 6, 6, 0.77);
@@ -57,18 +61,22 @@ h1 {
     font-size: 7.813vw;
     font-family: 'Ewert', cursive;
 }
-.intro figure{
+
+.intro figure {
     width: 13.021vw;
 }
-.intro figure img{
+
+.intro figure img {
     width: 100%;
     border-radius: 0.521vw;
 }
-.intro figure figcaption{
+
+.intro figure figcaption {
     width: 100%;
     text-align: center;
 }
-.intro{
+
+.intro {
     width: 36.458vw;
     display: flex;
     flex-direction: row;
@@ -76,18 +84,22 @@ h1 {
     justify-content: space-around;
     border-right: solid #00000093;
 }
-.Epico{
+
+.Epico {
     width: 20.833vw;
 }
-.Epico h2,.critica h2{
+
+.Epico h2,
+.critica h2 {
     font-size: 2.083vw;
     text-decoration: underline;
 }
-.Epico p{
+
+.Epico p {
     font-size: 0.938vw;
 }
 
-.critica{
+.critica {
     width: 36.458vw;
     font-size: 1vw;
     text-align: end;
@@ -96,16 +108,19 @@ h1 {
     margin-top: 0.521vw;
     padding-top: 0.26vw;
 }
-.wrapper1{
+
+.wrapper1 {
     display: flex;
     flex-wrap: wrap;
     position: relative;
     justify-content: space-between;
 }
-.wrapper1 div:first-of-type{
+
+.wrapper1 div:first-of-type {
     float: left;
 }
-.sec2{
+
+.sec2 {
     width: 62.5vw;
     padding: 1.042vw;
     display: flex;
@@ -114,16 +129,18 @@ h1 {
     position: relative;
 }
 
-.sec2 h2{
+.sec2 h2 {
     text-decoration: underline;
     font-size: 5vw;
     width: 57.292vw;
     text-align: center;
 }
-.sec2 p:last-of-type{
+
+.sec2 p:last-of-type {
     text-align: end;
 }
-.mapa{
+
+.mapa {
     width: 20vw;
     float: right;
     shape-outside: url("assets/Flag_map_of_Rio_Grande_Do_Sul.png");
@@ -131,93 +148,185 @@ h1 {
     z-index: 3;
     filter: saturate(0.2);
 }
-.sec2 article p{
+
+.sec2 article p {
     font-size: 1vw;
     margin: 0.938vw;
     padding: 0.521vw;
     z-index: 5;
 }
-.wrapper1 p:last-of-type{
+
+.wrapper1 p:last-of-type {
     font-size: 1vw;
 }
-.wrapper2{
+
+.wrapper2 {
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
-.charge{
+
+.charge {
     opacity: 50%;
     width: 78.125vw;
     margin-top: 2.083vw;
 }
-.wrapper2 figcaption{
+
+.wrapper2 figcaption {
     font-size: 0.8vw;
 }
-.wrapper2 article{
+
+.wrapper2 article {
     width: 100%;
     margin-top: 2.083vw;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.wrapper2 article p{
+
+.wrapper2 article p {
     width: 70%;
     font-size: 1.3vw;
 }
-.rique{
+
+.rique {
     width: 90%;
 }
-.rique h2{
+
+.rique h2 {
     text-align: center;
     font-size: 8vw;
 }
-.econo{
+
+.econo {
     float: left;
     width: 10vw;
 }
-ul{
+
+.sec3 {
+    width: 90%;
+}
+
+.sec3 h2 {
+    font-size: 6vw;
+    transform: rotate(-10deg);
+    margin-bottom: 5.208vw;
+}
+.sec3 p{
+    margin: 0.521vw;
+    margin-left: 10.417vw;
+    font-size: 1vw;
+    text-align: end;
+    width: 80%;
+}
+.sec3 p:last-of-type{
+    padding-bottom: 1.042vw;
+    border-bottom: double #00000093 1.042vw;
+}
+.sec3 p:first-of-type{
+    font-size: 1.302vw;
+    margin-left: 7.813vw;
+}
+.entv {
+    object-fit: cover;
+    height: 24vw;
+    width: 30vw;
+    float: right;
+    shape-outside: url("assets/entrv.png");
+    shape-image-threshold: 0.1;
+}
+.trdç{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.trdç div{
+    width: 40%;
+    font-size: 0.8vw;
+    padding-left: 0.521vw;
+}
+.trdç div:first-of-type{
+    text-align: end;
+    padding-right: 0.521vw;
+    border-right: solid #00000034;
+}
+.trdç h2{
+    text-align: center;
+    text-decoration: underline;
+    margin: 1.042vw;
+}
+ul {
     padding: 1.042vw;
     width: 100vw;
     overflow-x: scroll;
     list-style: circle;
 }
-@media screen and (max-width: 780px){
+.eng img{
+    height: 15vw;
+}
+footer{
+    border-top: dashed;
+    padding-top: 1.563vw;
+}
+@media screen and (max-width: 780px) {
     h1 {
         font-size: 10vw
     }
-    .intro{
+
+    .intro {
         width: 100%;
         border: none;
         align-items: flex-start;
     }
-    .intro figure{
+
+    .intro figure {
         width: 20vw;
     }
-    .intro figure figcaption{
+
+    .intro figure figcaption {
         width: 100%;
     }
-    .Epico{
+
+    .Epico {
         width: 70vw;
     }
-    .critica{
+
+    .critica {
         width: 100%;
     }
-    .sec2{
+
+    .sec2 {
         width: 100%;
         position: relative;
     }
-    .sec2 h2{
+
+    .sec2 h2 {
         width: 100%;
     }
-    .mapa{
+
+    .mapa {
         width: 30vw;
     }
-    .charge{
+
+    .charge {
         width: 99%;
     }
-    .econo{
+
+    .econo {
         width: 25vw;
+    }
+    .trdç{
+        display: initial;
+    }
+    .trdç div:first-of-type{
+        float: left;
+    }
+    .trdç img{
+        height: 30vw;
+    }
+    .trdç div:last-of-type{
+        width: 95%;
     }
 }
