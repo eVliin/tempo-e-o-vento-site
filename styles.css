@@ -175,7 +175,10 @@ h1 {
     width: 78.125vw;
     margin-top: 2.083vw;
 }
-
+.ot{
+    margin-top: 1.563vw;
+    width: 98%;
+}
 .wrapper2 figcaption {
     font-size: 0.8vw;
 }
