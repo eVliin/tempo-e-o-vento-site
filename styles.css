@@ -123,6 +123,7 @@ h1 {
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 1;
 }
 
 .sec2 h2{
@@ -137,11 +138,26 @@ h1 {
     shape-outside: url("assets/Flag_map_of_Rio_Grande_Do_Sul.png");
     shape-image-threshold: 0.1;
     opacity: 80%;
+    z-index: 3;
 }
 .sec2 article p{
     font-size: 1vw;
-    margin: 50px;
+    margin: 0.938vw;
     padding: 0.521vw;
+    z-index: 5;
+}
+.wrapper2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.wrapper2 figure{
+}
+.charge{
+    opacity: 50%;
+    width: 78.125vw;
 }
 @media screen and (max-width: 780px){
     h1 {
