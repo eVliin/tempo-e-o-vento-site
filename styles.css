@@ -355,7 +355,7 @@ footer {
         width: 95%;
     }
 
-    p {
-        font-size: 1.5vw;
+    .sec3 p ,.wrapper2 article p,.sec2 article p,.wrapper1 p:last-of-type,p {
+        font-size: 3vw;
     }
 }
