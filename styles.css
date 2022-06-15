@@ -175,10 +175,12 @@ h1 {
     width: 78.125vw;
     margin-top: 2.083vw;
 }
-.ultp{
+
+.ultp {
     margin-top: 1.563vw;
     width: 98%;
 }
+
 .wrapper2 figcaption {
     font-size: 0.8vw;
 }
@@ -219,21 +221,25 @@ h1 {
     transform: rotate(-10deg);
     margin-bottom: 5.208vw;
 }
-.sec3 p{
+
+.sec3 p {
     margin: 0.521vw;
     margin-left: 10.417vw;
     font-size: 1vw;
     text-align: end;
     width: 80%;
 }
-.sec3 p:last-of-type{
+
+.sec3 p:last-of-type {
     padding-bottom: 1.042vw;
     border-bottom: double #00000093 1.042vw;
 }
-.sec3 p:first-of-type{
+
+.sec3 p:first-of-type {
     font-size: 1.302vw;
     margin-left: 7.813vw;
 }
+
 .entv {
     object-fit: cover;
     height: 24vw;
@@ -242,39 +248,49 @@ h1 {
     shape-outside: url("assets/entrv.png");
     shape-image-threshold: 0.1;
 }
-.trdç{
+
+.trdç {
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.trdç div{
+
+.trdç div {
     width: 40%;
     font-size: 0.8vw;
     padding-left: 0.521vw;
 }
-.trdç div:first-of-type{
+
+.trdç div:first-of-type {
     text-align: end;
     padding-right: 0.521vw;
     border-right: solid #00000034;
 }
-.trdç h2{
+
+.trdç h2 {
     text-align: center;
     text-decoration: underline;
     margin: 1.042vw;
 }
+
 ul {
     padding: 1.042vw;
     width: 100vw;
     overflow-x: scroll;
     list-style: circle;
 }
-.eng img{
+
+.eng img {
     height: 15vw;
 }
-footer{
+
+footer {
+    margin-top: 200px;
     border-top: dashed;
     padding-top: 1.563vw;
 }
+
 @media screen and (max-width: 780px) {
     h1 {
         font-size: 10vw
@@ -322,16 +338,24 @@ footer{
     .econo {
         width: 25vw;
     }
-    .trdç{
+
+    .trdç {
         display: initial;
     }
-    .trdç div:first-of-type{
+
+    .trdç div:first-of-type {
         float: left;
     }
-    .trdç img{
+
+    .trdç img {
         height: 30vw;
     }
-    .trdç div:last-of-type{
+
+    .trdç div:last-of-type {
         width: 95%;
+    }
+
+    p {
+        font-size: 1.5vw;
     }
 }
